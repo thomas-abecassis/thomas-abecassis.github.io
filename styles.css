@@ -1,0 +1,133 @@
+header {
+  min-height: 127px;
+  margin-bottom: 40px;
+}
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-size: cover;
+  background-color: #242843;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./images/bg.png);
+  height: 100%;
+}
+
+#wrapper {
+  max-width: 970px;
+}
+.profile-title {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 8px;
+}
+
+.profile-desc {
+  display: inline-block;
+  color: #848484;
+  margin-bottom: 8px;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 0px 9px;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+img.avatar {
+  margin-top: 20px;
+}
+
+.info ul {
+  display: inline-block;
+  text-align: left;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 42px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 35px;
+}
+.info p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+}
+
+.interests > div {
+  padding: 0px 5px;
+}
+
+div.bordure {
+margin-top:100px;
+border-bottom:1px solid grey;
+}
+
+.card-panel{
+padding-left: 0px;
+padding-right: 0px; 
+}
+
+.card .card-content{
+padding-left: 0px;
+padding-right: 0px; 
+}
+
+.card{
+  letter-spacing:0.2em;
+}
+
+span{
+  margin-right:20px;
+  margin-left:20px;
+}
+
+
+
+
+li{    
+  display: inline-block;
+  padding: 0.675em 0.5em;
+  }
+
+li a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 100%;
+    border: solid 1px #c8cccf;
+    line-height: 3.75em !important;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 3.75em;
+    white-space: nowrap;
+  }
+
+li a:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    font-size: 1.85rem;
+    line-height: inherit;
+    text-align: center;
+    text-indent: 0;
+    color:#c8cccf;
+
+}
+
