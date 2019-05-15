@@ -73,6 +73,7 @@ h2 {
 div.bordure {
 margin-top:100px;
 border-bottom:1px solid grey;
+width:30%;
 }
 
 .card-panel{
@@ -135,6 +136,28 @@ ul.icons li a:hover:before {
 }
 
 #espace{
-  margin-top:1em;
+  margin-top:30px;
+}
+
+#maincard{
+  width:80%;
+  margin-left:10%;
+}
+
+.Projects{
+  margin-top:20px;
+}
+  
+
+@media only screen and (max-width: 1100px) {
+  div.bordure {
+  width:25%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  div.bordure {
+  width:20%;
+  }
 }
 
