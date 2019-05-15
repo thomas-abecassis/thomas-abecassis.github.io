@@ -95,26 +95,20 @@ span{
 }
 
 
-
-
 li{    
   display: inline-block;
   padding: 0.675em 0.5em;
   }
 
 li a{
-    text-decoration: none;
     position: relative;
-    display: block;
     width: 3.75em;
     height: 3.75em;
     border-radius: 100%;
     border: solid 1px #c8cccf;
     line-height: 3.75em !important;
     overflow: hidden;
-    text-align: center;
     text-indent: 3.75em;
-    white-space: nowrap;
   }
 
 li a:before{
@@ -124,10 +118,23 @@ li a:before{
     width: inherit;
     height: inherit;
     font-size: 1.85rem;
-    line-height: inherit;
-    text-align: center;
     text-indent: 0;
     color:#c8cccf;
+}
 
+a:before {
+  -moz-transition: color 0.2s ease, text-shadow 0.2s ease;
+  -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
+  -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+
+ul.icons li a:hover:before {
+  color: #999;
+}
+
+#espace{
+  margin-top:1em;
 }
 

@@ -31,7 +31,7 @@
   <div class="container row" id="wrapper">
     <!-- first card with personal info -->
 
-    <div class="card ">
+    <div class="card" id="maincard">
       <div class="card-content">
       <div>
 
@@ -45,26 +45,55 @@
         THOMAS ABECASSIS
       </h1>
       <p class="center grey-text text-darken-1 ">
-        Full Stack Web Developer & nature, travel, yoga and cats lover 
+        Computer Science Student & nature, travel, yoga and cats lover 
       </p>
       <ul class="center icons">
           <li>
             <a href="https://www.linkedin.com" class="fab fa-linkedin-in">zae</a>
           </li>
           <li >
-            <a href="https://www.linkedin.com" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
           </li>
           <li>
             <a href="https://twitter.com/" class="fab fa-twitter"></a>
           </li>
       </ul>
-      <span class="card-title activator grey-text text-darken-2">Mes projets<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-2">Projects<i class="material-icons right">more_vert</i></span>
     </div>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-1">Mes projets<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-1">Projects<i class="material-icons right">close</i></span>
       <div class="mesProjets">
-         <img class="materialboxed col s4 m4 center" width="650" src="images/plantasia.png">
+        <div class="row" id="espace">
+          <div class="col s4 m4 push-m1 push-s1">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/plantasiaflat.png">
+                <span class="card-title">Plantasia</span>
+              </div>
+              <div class="card-content">
+                <p class="center"> Laureate of Code Game Jame</p>
+              </div>
+              <div class="card-action">
+                <a href="http://codegamejam.extragames.fr/">findable here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s4 m4 push-m3 push-s3 ">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sofutonoir.png">
+                <span class="card-title">Sofuto</span>
+              </div>
+              <div class="card-content">
+                <p class="center"> Responsive Design, html, css</p>
+              </div>
+              <div class="card-action">
+                <a href="http://webinfo.iutmontp.univ-montp2.fr/~abecassist/htmlcss/Projet/accueil.html">findable here</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -78,9 +107,7 @@
     $(document).ready(function(){
       $('.scrollspy').scrollSpy();
     });
-  $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
+
   </script>
 </body>
 </html>
